@@ -42,3 +42,15 @@ The **Pharmacy Management System** is a GUI-based application developed using Py
    ```bash
    git clone https://github.com/its-kshitij4444/Pharmacy-Management-Mini-Project.git
    cd Pharmacy-Management-Mini-Project
+2. **Set Up the Database**
+   - Open `pharmacy_backend.sql` in MySQL Workbench or your preferred MySQL client.
+   - Execute the script to create the database, tables, and triggers, and populate sample data.
+
+3. **Install Python Dependencies**
+   ```bash
+   pip install mysql-connector-python
+
+4. **Run the Application**
+   ```bash
+   python app.py
+
